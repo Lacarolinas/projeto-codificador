@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Titulo</title>
+    <link rel="shortcut icon" href="icones/icon-titulo.png" />
+    <link rel="stylesheet" href="./estilos/reset.css" />
+    <link rel="Stylesheet" href="estilos/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1><img src="icones/logo.png" alt="" class="logo" /></h1>
+    </header>
+    <main class="main">
+      <section>
+        <section class="mensagem">
+          <div class="input">
+            <textarea
+              name=""
+              id="input-texto"
+              cols="30"
+              rows="10"
+              class="input-texto"
+              placeholder="digite sua mensagem"
+            ></textarea>
+            <p class="campo-aviso">
+              <span class="aviso">Apenas letras minúsculas e sem acento!</span>
+            </p>
+          </div>
+
+          <div class="btn-criptografia">
+            <button class="button-criptografar" id="btn-criptografar">
+              criptografar
+            </button>
+            <button class="button-descriptografar" id="btn-descriptografar">
+              descriptografar
+            </button>
+          </div>
+        </section>
+
+        <section class="saida-msg">
+          <div class="output" id="output">
+            <textarea
+              class="output-texto"
+              id="output-texto"
+              readonly
+            ></textarea>
+            <div class="elementos" id="elementos">
+              <img src="icones/aranha.png" alt="" class="aranha" />
+              <h2 class="msg-aqui">Sua mensagem aparcerá aqui</h2>
+              <p>
+                Digite uma mensagem que você deseja criptografar ou
+                descriptografar
+              </p>
+            </div>
+            <div class="copiar">
+              <button class="button-copiar" id="btn-copiar">copiar</button>
+            </div>
+          </div>
+        </section>
+      </section>
+    </main>
+    <footer>
+      <div class="redes-sociais">
+        <a href="https://www.linkedin.com/in/laura-silva-068786237/"
+          ><img src="icones/logo-do-linkedin.png" alt=""
+        /></a>
+      </div>
+      <p class="copyright">&copy; Copyright Laura - 2023</p>
+    </footer>
+
+    <script type="text/javascript" src="./interacao/script.js"></script>
+  </body>
+</html>
