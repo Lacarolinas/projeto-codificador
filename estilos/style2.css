@@ -206,7 +206,8 @@ footer {
 }
 
 footer p {
-  margin: 2% 0;
+  margin: 1% 0;
+  color: #f7a4b3;
 }
 /* Tablet */
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -389,7 +390,8 @@ footer p {
     text-align: center;
   }
   footer p {
-    margin: 2% 0;
+    margin: 1% 0;
+    color: #f7a4b3;
   }
 }
 
@@ -574,8 +576,6 @@ footer p {
   }
   footer p {
     margin: 1% 0;
-  }
-  .copyright {
     color: #f7a4b3;
   }
 }

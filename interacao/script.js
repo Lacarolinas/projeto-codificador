@@ -19,7 +19,6 @@ function criptografar() {
     alert(
       "Inválido! Digite uma mensagem com apenas letras minúsculas e sem acento."
     );
-    msgEntrada.value = "";
   } else {
     var mensagemCripto = mensagem
       .replaceAll("a", "ax")
@@ -40,7 +39,6 @@ function descriptografar() {
   let valido = validar();
   if (valido == false) {
     alert("Inválido! Apenas letras minúsculas e sem acento.");
-    msgEntrada.value = "";
   } else {
     var mensagemDescripto = mensagem
       .replaceAll("ax", "a")
